@@ -1,2 +1,2 @@
 # Emailspamdetector
-Email spam detection with ntlk
+Email spam detection using confusion matrix
