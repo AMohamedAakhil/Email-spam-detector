@@ -19,7 +19,7 @@ def process_text(text):
     nopunc = [char for char in text if char not in string.punctuation]
     nopunc = ''.join(nopunc)
     
-    clean_words = [word for word in nopunc.split() if word.lower() not in stopwords.words('english')]
+    clean_words = [word for word in nopunc.split() if word.lower() not in stopwords.words('english ')]
     
     return clean_words
 
